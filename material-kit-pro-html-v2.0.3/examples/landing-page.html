@@ -34,6 +34,30 @@
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav ml-auto">
+
+                    <li class="dropdown nav-item">
+                        <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+                            <i class="material-icons">description</i> На этой странице
+                        </a>
+                        <div class="dropdown-menu dropdown-with-icons">
+                            <a href="./landing-page.html#header" class="dropdown-item" data-scroll="true" data-id="#header">
+                                <i class="material-icons">reorder</i> Заголовок
+                            </a>
+                            <a href="./landing-page.html#feedback" class="dropdown-item" data-scroll="true" data-id="#feedback">
+                                <i class="material-icons">record_voice_over</i> Отзывы
+                            </a>
+                            <a href="./landing-page.html#price" class="dropdown-item" data-scroll="true" data-id="#price">
+                                <i class="material-icons">local_atm</i> Цена
+                            </a>
+                            <a href="./landing-page.html#enter" class="dropdown-item" data-scroll="true" data-id="#enter">
+                                <i class="material-icons">input</i> Входим
+                            </a>
+                            <a href="./landing-page.html#work" class="dropdown-item" data-scroll="true" data-id="#work">
+                                <i class="material-icons">work</i> Рабочее предложение
+                            </a>
+                        </div>
+                    </li>
+
                     <li class="dropdown nav-item">
                         <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
                             <i class="material-icons">apps</i> Компоненты
@@ -127,6 +151,8 @@
             </div>
         </div>
     </nav>
+
+    <div class="cd-section" id="header">
     <div class="page-header header-filter" data-parallax="true" style=" background-image: url('../assets/img/money.jpg'); ">
         <div class="container">
             <div class="row">
@@ -141,9 +167,11 @@
             </div>
         </div>
     </div>
-    <div class="main main-raised">
-        <div class="container">
+    </div>
 
+    <!--<div class="cd-section" id="feedback"> -->
+    <div class="main main-raised" id="feedback">
+        <div class="container">
             <div class="section text-center">
                 <h2 class="title">Отзывы спавших на деньгах.</h2>
                 <div class="team">
@@ -286,7 +314,11 @@
                     </div>
                 </div>
             </div>
-
+        </div>
+    </div>
+    <!--</div>-->
+    
+    <div class="main main-raised" id="price">
             <div class="section text-center">
                 <h2 class="title">Наши расценки</h2>                
                 <div class="pricing-2">
@@ -366,22 +398,25 @@
                     </div>
                 </div>
             </div>
+    </div>
 
+    
+    <div class="main main-raised" id="enter>
         <div class="container">
             <div class="row">
-                <div class="col-md-8 col-sm-6 ml-auto mr-auto">
+                <div class="col-md-8 col-sm-12 ml-auto mr-auto">
                     <div class="card card-signup">
                         <form class="form" method="" action="">
                             <div class="card-header card-header-success text-center">
                                 <h2 class="card-title">Входим</h2>
                                 <div class="social-line">
-                                    <a href="#pablo" class="btn btn-just-icon btn-link">
+                                    <a href="https://www.facebook.com/" class="btn btn-just-icon btn-link">
                                         <i class="fa fa-facebook-square"></i>
                                     </a>
-                                    <a href="#pablo" class="btn btn-just-icon btn-link">
+                                    <a href="https://twitter.com/" class="btn btn-just-icon btn-link">
                                         <i class="fa fa-twitter"></i>
                                     </a>
-                                    <a href="#pablo" class="btn btn-just-icon btn-link">
+                                    <a href="https://plus.google.com/discover" class="btn btn-just-icon btn-link">
                                         <i class="fa fa-google-plus"></i>
                                     </a>
                                 </div>
@@ -422,14 +457,18 @@
                                 </div> -->
                             </div>
                             <div class="footer text-center">
-                                <a href="#pablo" class="btn btn-success btn-link btn-wd btn-lg">Начнём..</a>
+                                <!--a href="#pablo" class="btn btn-success btn-link btn-wd btn-lg">Начнём..</a-->
+                                <button type="submit" class="btn btn-success ">Начнём..</button> 
                             </div>
                         </form>
                     </div>
                 </div>
             </div>
         </div>
-            
+    </div>
+    
+    <div class="main main-raised" id="work">
+        <div class="container">        
             <div class="section section-contacts">
                 <div class="row">
                     <div class="col-md-8 ml-auto mr-auto">
@@ -492,17 +531,17 @@
                             </ul>
                             <ul class="social-buttons float-right">
                                 <li>
-                                    <a href="https://twitter.com/CreativeTim" target="_blank" class="btn btn-just-icon btn-link">
+                                    <a href="https://twitter.com" target="_blank" class="btn btn-just-icon btn-link">
                                         <i class="fa fa-twitter"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://www.facebook.com/CreativeTim" target="_blank" class="btn btn-just-icon btn-link">
+                                    <a href="https://www.facebook.com" target="_blank" class="btn btn-just-icon btn-link">
                                         <i class="fa fa-facebook-square"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://www.instagram.com/CreativeTimOfficial" target="_blank" class="btn btn-just-icon btn-link">
+                                    <a href="https://www.instagram.com" target="_blank" class="btn btn-just-icon btn-link">
                                         <i class="fa fa-instagram"></i>
                                     </a>
                                 </li>
